@@ -1,0 +1,562 @@
+@charset "utf-8";
+/* CSS Document 
+
+Feel Pill CSS 
+by Jay Manalansan
+
+Primary Colors: 
+
+orange: #f7941e
+gray: #ffffff
+white: #efefef
+green: #8cc63f
+dark green: #669933
+
+*/
+
+html {
+	background:url(../images/bg.jpg) repeat-x;
+
+}
+
+#container {
+	text-align: left;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+ul, li, img, body, html {
+	margin: 0; padding: 0;
+}
+
+#linkList2 a {
+	text-decoration: none;
+	color: #669933;
+	background: none;
+}
+.remove a img {
+	background: none;
+}
+
+
+/* header div */
+#header {
+	background:url(../images/headerbar.jpg) no-repeat;
+	margin-left: 68px;
+	overflow:hidden;
+	margin-top: 50px;
+	width: 1024px;
+	height: 154px;
+}
+#logo {
+	padding-left: 20px;
+	padding-top: 10px;
+	margin: 0px;
+}
+#linkList2 {
+	color:#669933;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float: right;
+	padding-top: 115px;
+	padding-right: 443px;
+	margin: 0px;
+}
+
+#linkList2 li {
+	display:inline;	
+	padding-right: 5px;
+	
+}
+#linkList2 a:active {
+	background:none;	
+}
+
+	
+
+#linkList {
+	
+	background-image:url(../images/nav.png) ;
+	background-repeat:no-repeat;
+	width: 630px;
+	height: 60px;
+	margin-left: 59px;
+	overflow:hidden;
+	clear:both;  
+	margin-top: -20px;
+	z-index: 1000;
+	position:relative;
+	
+}
+#shadow {
+	
+}
+
+#linkList ul {
+	list-style-type:none;
+	overflow:hidden;
+
+}
+#linkList li {
+	display:inline;	
+	float:left;
+	padding-right: 18px;
+	padding-top: 17px;
+	margin-left: 28px;
+	height: 42px;
+	overflow:hidden;
+	
+}
+
+#linkList a:link,a:visited
+{
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	width:40px;
+	color:#FFFFFF;
+	background-color:#8cc63f;
+	text-align:center;
+	padding:12px;
+	text-decoration:none;
+
+}
+#linkList li a:hover {
+	background-color:#693;
+	padding:12px;
+}
+#linkList2 a:hover {
+	
+	color:#f7941e;
+}
+
+/*end of header div */
+
+
+
+
+
+
+
+/*mainContent div */
+
+#mainContent {
+	background-color:#efefef;
+	background:url(../images/contentbox.png);
+	width: 600px;
+	height: 554px;;
+	margin-left: 68px;
+	margin-right: auto;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	color:#669933;
+	margin-top: -14px;
+	overflow:hidden;
+	float:left;
+
+}
+
+#mainContent h1 {
+	font-style:normal;
+	padding-top: 40px;
+	padding-bottom: 100px;	
+}
+#mainContent p {
+	
+	font-size: 14px;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+#mainContent img {
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	
+}
+#banner {
+	padding-left: 132px;
+}
+/*end of mainContent div */
+
+/*products page */
+#greenBox {
+	margin-left: 5px;	
+	margin-top: -10px;
+}
+
+#happyPill h3 {
+	padding-top: 40px;
+	color:#000;
+	position:relative;
+	left: 10px;
+	
+	
+}
+#happyPill p {
+	position: relative;
+	left: 10px;
+	color:#000;
+	
+}
+
+#mainContent .price {
+	position: relative;
+	left: 300px;
+	font-size:24px; 
+	margin: 0;
+}
+#blueBox {
+	padding-left: 20px;	
+	position:relative;
+	margin-top: 10px;
+	left:10px;
+}
+#sadPill h3 {
+	padding-top: 75px;
+	color:#000;	
+	position: relative;
+	left: 10px;
+}
+#sadPill p {
+	color:#000;
+	position: relative;
+	left: 10px;
+}
+#splitbar {
+	/*margin-left: 12px;*/	
+}
+#add1 {
+	margin-left: 240px;
+	margin-top: -69px;
+	position:relative;
+	z-index: 100;
+	
+}
+#add2 {
+	margin-left: 246px;	
+	margin-top: 10px;
+	position:relative;
+	z-index: 100;
+}
+
+/*end of products page*/
+
+/*beginning of company page*/
+
+#smileGirl {
+	margin-top: 10px;
+	margin-left: 20px;	
+}
+
+#sadMan {
+	margin-top: 10px;	
+	margin-left: 30px;
+}
+#angryWoman {
+	margin-top: 10px;
+	margin-left: 33px;
+}
+
+#mainContent .company {
+	float: left;
+	padding-top: 10px;	
+}
+
+#greenPills {
+	margin-left: 370px;
+}	
+
+/*end of company page*/
+
+/*beginning of faqs*/
+#faq {
+	padding-left: 50px;
+	padding-top: 30px;
+	list-style: none;
+	font-size: 14px;
+}
+
+#faq .answer {
+	color:#000;
+	padding-bottom: 10px;
+	padding-right: 210px;
+}
+
+#faqText {
+	font-style:normal;
+	font-size: 14px;
+}
+#greenPills2 {
+	margin-top: 40px;
+	margin-left: 370px;	
+}
+/*end of faq*/
+
+/*beginning of contact*/
+#contact {
+	margin-top: 55px;
+	margin-left: 25px;
+}
+#contact li {
+	padding-top: 7px;
+}
+#greenPills3 {
+	margin-top:-15px;
+	margin-left: 345px;
+}
+#office {
+	margin-top: 45px;	
+}
+#contact {
+	list-style-type:none;
+}
+#brief {
+	padding-top: 110px;	
+	margin-left: -20px;
+	width: 380px;
+}
+#mainContent #contact .info {
+	font-size: 18px;
+}
+#address {
+	float:right;
+	padding-right: 53px;
+	width: 200px;	
+}
+/*end of contact*/
+
+/*beginning of cart*/
+#mainContent #productGreen h3{
+	color:#000;
+	padding-top: 30px;
+}
+#form1 {
+	margin-top: 0px;	
+}
+#mainContent #productBlue h3{
+	color:#000;
+	padding-top: 20px;
+}
+#productSide{
+	padding-left: 20px;	
+}
+#priceSide {
+	float:right;
+	margin-top: -250px;
+}
+
+#remove1 {
+	margin-top: -45px;
+}
+#remove2 {
+	margin-top:35px;	
+}
+#topprice {
+	margin-bottom: 0px;	
+	
+}
+#topprice #priceCart {
+	color:#000;
+	position:relative;
+	top: 10px;
+	font-size: 24px;
+}
+#bottomprice #priceCart2 {
+	color:#000;	
+	font-size: 24px;
+	margin-top: 0px;
+	position:relative;
+	top: 73px;
+}
+#productBlue {
+	padding-top: 45px;
+}
+#subscript p {
+	text-align:right;
+	position:relative;
+	right: 0px;
+	font-size: 20px;
+	color:#000;
+}
+#subscript #subtotal {
+	positive:relative;
+	top: 11px;
+}
+#splitbar3 {
+	width: 300px;
+	height: 7px;
+	margin-left: 240px;
+	margin-top: -25px;
+}
+#splitbar2 {
+	margin-left: 7px;	
+}
+#totalscript #total{
+	font-size: 28px;
+	color:#000;
+	float:left;
+	margin-left: 432px;
+	padding-right: 5px;
+	padding-top: 3px;
+}
+#totalamt {
+	color:#000;	
+	font-size: 24px;
+	padding-top: 8px;
+}
+#checkout {
+	margin-left: 432px;	
+	margin-top: -15px;
+}
+#bannerCart {
+	margin-left: 28px;
+	margin-top: -10px;
+}
+#mainContent {
+	overflow:hidden;
+}
+/*end of cart*/
+
+
+/*beginning of checkout*/
+
+#checkOutItems{
+	float: left;	
+}
+
+#checkOutPricesItems{
+	float: right;
+	padding-right: 20px;
+}
+
+#checkOutTop{
+	margin-bottom:25px;
+}
+
+#subscript2 p {
+	text-align:right;
+	position:relative;
+	right: 0px;
+	font-size: 20px;
+	color:#000;
+}
+#subscript2 #subtotal2 {
+	positive:relative;
+	top: 11px;
+}
+
+#subscript2{
+	margin-top: 100px;
+	padding-right:20px;
+}
+#checkoutTitle{
+	margin-left: 30px;
+	color: #000;
+	font-weight: normal;
+}
+
+#checkOut{
+	color: #000;
+	
+	
+}
+
+#checkOutItems{
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+#checkOut #checkOutItems p{
+	font-size: 18px;
+}
+
+#checkOut #checkOutPricesItems p{
+	font-size: 18px;
+}
+#bannerCheckout {
+	margin-top: 120px;	
+	margin-left: 48px;
+	
+}
+/*end of checkout*/
+
+/* beginning of IE6 hacks */
+
+* html #mainContent {
+	margin-left: 33px;;
+	}
+* html #address {
+	float:none;
+	margin-top: -110px;
+	width: 200px;
+	}
+* html #brief {
+	margin-top: -20px;
+	
+}
+* html #linkList2 {
+	position:relative;
+	margin-top: -135px;
+	z-index: 100px;
+}
+* html #linkList2 a:link{
+	background color:#fff;	
+}
+* html #mainContent #productSide #productBlue {
+	margin-left: -250px;
+}
+* html #blueBoxsmall {
+	margin-left: -100px;	
+}
+* html #priceCart2 {
+	position:relative;
+	right: 127px;
+	margin-left:  -50px;	
+}
+* html #subscript {
+	margin-top: -130px;
+}
+* html #total {
+	position:relative;
+	right: 440px;
+}
+* html #totalamt {
+	margin-top:-40px;
+	position:relative;
+	left: 490px;
+}
+* html #subtotal {
+	position:relative; 
+	right: 600px;
+}
+* html #checkoutTitle {
+	margin-top: 20px;
+}
+*+html #brief {
+	position:relative;
+	right: 700;
+	margin-left: -345px;
+}
+*+html #linkList2 {
+	margin-top: -130px;	
+}
+*+html #blueBoxsmall {
+	margin-left: -100px;	
+}
+*+html #priceCart2 {
+	position:relative;
+	right: 127px;
+	margin-left:  -50px;	
+}
+*+ html #checkoutTitle {
+	margin-top: 20px;
+}
+*+ html #subtotal {
+	position:relative;
+	right: 5px;
+	margin-left: -800px;
+}
+
+
+/*end of IE 6 hacks */
